@@ -109,3 +109,4 @@ var sum = values.reduce(function(prev,cur,index,array){
     return prev + cur;
 })
 alert(sum); */
+
