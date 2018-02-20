@@ -110,3 +110,24 @@ var sum = values.reduce(function(prev,cur,index,array){
 })
 alert(sum); */
 
+/* var color = "blue";
+
+function changecolor(){
+    if (color == "blue"){
+        color = "red";
+    }
+    else{
+        color = "green";
+    }
+}
+
+changecolor();
+alert(color); */
+
+function createPerson(name){
+    var location = new Object();
+    location.name = name;
+    return location;
+}
+var globalPerson = createPerson("Cheng");
+alert(globalPerson.name);
